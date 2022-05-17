@@ -1,0 +1,28 @@
+.outer-container {
+    border: 1px solid black;
+}
+
+
+.button-style {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.button-style__first {
+    border: 1px solid red;
+}
+
+.button-style__second {
+    border: 1px solid red;
+}
+
+.button-style__third {
+    border: 1px solid red;
+}
+
+.button-style__fourth {
+    border: 1px solid red;
+}
