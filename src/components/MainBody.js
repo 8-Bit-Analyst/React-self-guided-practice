@@ -3,6 +3,7 @@ import "./MainBodyStyle.css";
 const MainBody = (props) => {
 	return (
 		<div className="main-body">
+			{props.title}
 			<div>{props.type}</div>
 		</div>
 	);
